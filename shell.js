@@ -1009,7 +1009,7 @@ function createExportWrapper(name, fixedasm) {
 }
 
 var wasmBinaryFile;
-  wasmBinaryFile = 'shell.wasm';
+  wasmBinaryFile = 'https://raw.githubusercontent.com/777388/shelltest/main/shell.wasm';
   if (!isDataURI(wasmBinaryFile)) {
     wasmBinaryFile = locateFile(wasmBinaryFile);
   }
